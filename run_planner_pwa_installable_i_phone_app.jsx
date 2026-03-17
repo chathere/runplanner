@@ -52,29 +52,3 @@ export default function App() {
     </div>
   );
 }
-
-// Add this as public/manifest.json
-/*
-{
-  "name": "Run Planner",
-  "short_name": "Run",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000"
-}
-*/
-
-// Add this in public/index.html <head>
-/*
-<link rel="manifest" href="/manifest.json" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-*/
-
-// INSTALL STEPS
-// 1. Go to vercel.com
-// 2. Import this project (or upload manually)
-// 3. Deploy
-// 4. Open link in Chrome or Safari on iPhone
-// 5. Tap Share → Add to Home Screen

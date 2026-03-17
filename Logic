@@ -1,0 +1,25 @@
+export default function handler(req, res) {
+  // Simulated logic based on your situation
+
+  const today = new Date().getDay(); // 0=Sun
+
+  let workout = "Easy Run";
+  let distance = "4 miles";
+
+  if (today === 1) {
+    workout = "Speed Run";
+    distance = "~5 miles";
+  }
+
+  const time = "After 6:20 minyan → 7:05 AM";
+
+  const reason =
+    "Post-minyan run, good recovery spacing, and optimal weather window";
+
+  res.status(200).json({
+    workout,
+    distance,
+    time,
+    reason,
+  });
+}

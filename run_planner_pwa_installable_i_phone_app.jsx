@@ -1,5 +1,3 @@
-// Simple Run Planner PWA (Next.js compatible but works standalone with minor tweaks)
-// You can deploy this on Vercel and open in Chrome/Safari → Add to Home Screen
 
 import { useEffect, useState } from "react";
 
